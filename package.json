@@ -1,0 +1,33 @@
+{
+  "name": "weexbox-ui",
+  "version": "0.0.1",
+  "description": "一款基于weex-ui封装的可自由定制的UI组件库，搭配weexbox食用更佳",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeexBox/ui.git"
+  },
+  "keywords": [
+    "weex",
+    "weex-ui",
+    "weexbox"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WeexBox/ui/issues"
+  },
+  "homepage": "https://github.com/WeexBox/ui#readme",
+  "dependencies": {
+    "url-parse": "^1.4.3",
+    "weex-bindingx": "^0.0.48",
+    "weex-ui": "^0.6.7"
+  }
+}
