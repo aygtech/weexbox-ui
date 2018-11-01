@@ -1,0 +1,21 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "document": false,
+    "navigator": false,
+    "location": false,
+    "weex": true,
+    "Vue": true
+  },
+  "rules": {
+    "semi": "off",
+    "no-control-regex": "off",
+    "vue/html-self-closing": "off",
+    "space-before-function-paren": 2
+  },
+  "extends": "vue"
+}
