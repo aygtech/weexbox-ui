@@ -8,7 +8,11 @@
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:entry && webpack --progress",
+    "build:entry": "node bin/index.js",
+    "watch": "webpack --progress --watch",
+    "serve": "anywhere -d build/example/ -p 8888",
+    "start": "npm run build && (npm run serve & npm run watch)"
   },
   "repository": {
     "type": "git",
@@ -33,20 +37,23 @@
     "iOS 9"
   ],
   "dependencies": {
+    "@babel/runtime": "^7.1.2",
     "url-parse": "^1.4.3",
     "weex-bindingx": "^0.0.48",
     "weex-ui": "^0.6.7"
   },
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-stage-0": "^7.0.0",
     "autoprefixer": "^9.3.1",
-    "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
-    "babel-plugin-syntax-dynamic-import": "^6.18.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-runtime": "^6.26.0",
     "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^1.0.1",
     "eslint": "^5.8.0",
     "eslint-config-vue": "^2.0.2",
@@ -65,6 +72,7 @@
     "postcss-url": "^8.0.0",
     "sass-loader": "^7.1.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
+    "uppercamelcase": "^3.0.0",
     "url-loader": "^1.1.2",
     "vue": "^2.5.17",
     "vue-loader": "^15.4.2",
