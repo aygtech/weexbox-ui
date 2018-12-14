@@ -1,4 +1,4 @@
-WeexBox UI组件库 https://weexbox.surge.sh
+WeexBox UI组件库 https://aygtech.github.io/weexbox
 
 # 介绍
 
