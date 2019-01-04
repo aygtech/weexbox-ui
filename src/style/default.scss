@@ -1,0 +1,151 @@
+/* Colors
+-------------------------- */
+$color-primary: #409EFF !default;
+$color-white: #ffffff !default;
+$color-black: #000000 !default;
+$color-gray-text: #9e98a8 !default;
+
+$wb-color-white: #ffffff !default;
+$wb-color-light-purple: #9e9e9e !default;
+$wb-color-media-purple: #6a6a6a !default;
+$wb-color-purple: #0BBE08 !default;
+$wb-color-dark-purple: #3d3d3d !default;
+$wb-color-gray-purple: #d3d3d3 !default;
+$wb-color-light-pray: #f0f0f0 !default;
+$wb-color-white-gray: #e7e5e5 !default;
+$wb-color-light-blue: #f7f7f7 !default;
+$wb-color-violet:#c64dfe !default;
+$wb-color-light-violet: #db57bf;
+$wb-color-blue: #349fff !default;
+$wb-color-cyan: #33c7e6 !default;
+$wb-color-light-orange: #fe9050 !default;
+$wb-color-dark-orange: #f64574 !default;
+$wb-color-light-red: #ff2f5a !default;
+$wb-color-dark-red: #b51299 !default;
+
+$wb-color-orange-yellow: #ffb926 !default;
+// hover-color
+$wb-color-light-hover: #15DF34;
+$wb-color-dark-hover: #2AC5DB;
+
+// add color
+$wb-color-light-grey: #f7f7f7 !default;
+
+
+/* Font
+-------------------------- */
+$wb-fs22: 22px !default;
+$wb-fs24: 24px !default;
+$wb-fs26: 26px !default;
+$wb-fs28: 28px !default;
+$wb-fs30: 30px !default;
+$wb-fs32: 32px !default;
+$wb-fs34: 34px !default;
+$wb-fs36: 36px !default;
+
+/* Line-height
+-------------------------- */
+$wb-line34: 34px !default;
+$wb-line38: 38px !default;
+$wb-line40: 40px !default;
+$wb-line42: 42px !default;
+$wb-line44: 44px !default;
+
+
+/* Icon
+-------------------------- */
+
+
+/* Border
+-------------------------- */
+$wb-box-shadow: 0 1px -9px 2px rgba(0, 0, 0, 0.1);
+
+/* Background
+-------------------------- */
+$wb-bg-color: rgba(0, 0, 0, .5);
+
+/* 内外边距，left、right、border-radius等数字
+-------------------------- */
+$wb-nb4: 4px !default;
+$wb-nb6: 6px !default;
+$wb-nb8: 8px !default;
+$wb-nb10: 10px !default;
+$wb-nb15: 15px !default;
+$wb-nb16: 16px !default;
+$wb-nb20: 20px !default;
+$wb-nb24: 24px !default;
+$wb-nb30: 30px !default;
+$wb-nb32: 32px !default;
+$wb-nb40: 40px !default;
+$wb-nb50: 50px !default;
+$wb-nb56: 56px !default;
+$wb-nb60: 60px !default;
+$wb-nb72: 72px !default;
+$wb-nb80: 80px !default;
+$wb-nb88: 88px !default;
+$wb-nb90: 90px !default;
+$wb-nb150: 150px !default;
+$wb-nb184: 184px !default;
+$wb-nb200: 200px !default;
+$wb-nb280: 260px !default;
+$wb-nb280: 280px !default;
+
+// --- button ---
+// base
+$wb-btn--width: 156px !default;
+$wb-btn--height: 64px !default;
+$wb-btn--border-radius: 6px !default;
+$wb-btn--font-size: 32px !default;
+$wb-btn--color: $wb-color-purple !default;
+
+// small
+$wb-btn-small--width: 124px !default;
+$wb-btn-small--height: 64px !default;
+
+// medium
+$wb-btn-medium--width: 156px !default;
+$wb-btn-medium--height: 64px !default;
+
+// big
+$wb-btn-big--width: 560px !default;
+$wb-btn-big--height: 80px !default;
+
+// large
+$wb-btn-large--width: 690px !default;
+$wb-btn-large--height: 88px !default;
+
+
+// type:nomal
+$wb-btn-nomal--background-color: #f5fff5 !default;
+$wb-btn-nomal--border-color: $wb-color-purple !default;
+$wb-btn-nomal--border-width: 1px !default;
+
+// type:primary
+$wb-btn-primary--color: #ffffff !default;
+$wb-btn-primary--background-color: $wb-color-purple !default;
+$wb-btn-primary--border-width: 0px !default;
+
+// type:primary-line
+$wb-btn-primary-line--color: #ffffff !default;
+$wb-btn-primary-line--background-color: $wb-color-purple !default;
+$wb-btn-primary-line--background-image: linear-gradient(to bottom right,#0FCF2C,#21B0C4) !default;
+$wb-btn-primary-line--background-image-active: linear-gradient(to bottom right,#15DF34,#2AC5DB) !default;
+$wb-btn-primary-line--border-width: 0px !default;
+
+// type:clicked
+$wb-btn-clicked--color: #9e9e9e !default;
+$wb-btn-clicked--background-color: #ffffff !default;
+$wb-btn-clicked--border-color: #d3d3d3 !default;
+$wb-btn-clicked--border-width: 1px !default;
+
+// type:disabled
+$wb-btn-disabled--color: #ffffff !default;
+$wb-btn-disabled--background-color: $wb-color-white-gray !default;
+
+// --- 其他组件 ---
+// --- messageBox ---
+$wb-messageBox--border-color: $wb-color-white-gray !default;
+$wb-messageBox--color: $wb-color-purple !default;
+$wb-messageBox--bgColor: #ffffff;
+$wb-messageBox--active-bgColor:rgb(165, 248, 164) !default;
+
